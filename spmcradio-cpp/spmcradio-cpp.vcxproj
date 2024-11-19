@@ -221,6 +221,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="javareplica\ArrayBlockingQueue.h" />
+    <ClInclude Include="javareplica\JavaExceptions.h" />
     <ClInclude Include="javareplica\ArrayBlockingQueueImpl.h" />
     <ClInclude Include="javareplica\Iterator.h" />
     <ClInclude Include="javareplica\Object.h" />

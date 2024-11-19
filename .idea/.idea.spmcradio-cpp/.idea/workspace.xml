@@ -7,42 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="334e8a38-87b1-4281-9bb7-62477e3b26ef" name="Changes" comment="0.1 - start things off">
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/ArrayBlockingQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/ArrayBlockingQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/ArrayBlockingQueueImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/Object.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/TimeUnit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/format/AudioDataFormat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/player/AudioPlayerManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/source/AudioSourceManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/AudioItem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/AudioTrack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/AudioTrackInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/AudioTrackState.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/TrackStateListener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/impl/BaseAudioTrack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/internal/InternalAudioTrack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/marker/TrackMarker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/marker/TrackMarkerHandler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/marker/TrackMarkerTracker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/AudioFrameProvider.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/AudioTrackExecutor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/MutableAudioFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/buffer/AbstractAudioFrameBuffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/buffer/AllocatingAudioFrameBuffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/buffer/AudioFrameBuffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/buffer/AudioFrameBufferFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/executor/LocalAudioTrackExecutor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/executor/PrimordialAudioTrackExecutor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/frame/AbstractMutableAudioFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/frame/AudioFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/frame/AudioFrameBuffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/frame/AudioFrameConsumer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/frame/AudioFrameProvider.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/lavaplayer/main/track/playback/frame/AudioFrameRebuilder.h" afterDir="false" />
+    <list default="true" id="334e8a38-87b1-4281-9bb7-62477e3b26ef" name="Changes" comment="0.1 - help">
+      <change afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/JavaExceptions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.spmcradio-cpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.spmcradio-cpp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spmcradio-cpp/radio/SPMCRadio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/spmcradio-cpp/radio/SPMCRadio.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spmcradio-cpp/javareplica/ArrayBlockingQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/ArrayBlockingQueue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spmcradio-cpp/javareplica/ArrayBlockingQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/spmcradio-cpp/javareplica/ArrayBlockingQueue.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spmcradio-cpp/spmcradio-cpp.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/spmcradio-cpp/spmcradio-cpp.vcxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732019491218</updated>
-      <workItem from="1732019492692" duration="8526000" />
+      <workItem from="1732019492692" duration="9249000" />
     </task>
     <task id="LOCAL-00001" summary="0.1 - recommit">
       <option name="closed" value="true" />
@@ -167,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732020309215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0.1 - help">
+      <option name="closed" value="true" />
+      <created>1732028398402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732028398402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +169,8 @@
     <MESSAGE value="0.1 - init 2" />
     <MESSAGE value="0.1 - init" />
     <MESSAGE value="0.1 - start things off" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1 - start things off" />
+    <MESSAGE value="0.1 - help" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1 - help" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

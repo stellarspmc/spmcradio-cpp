@@ -2,7 +2,8 @@
 #include<string>
 
 #include "ArrayBlockingQueue.h"
-#include "TimeUtils.h"
+#include "ArrayBlockingQueueImpl.h"
+#include "JavaExceptions.h"
 
 using namespace std;
 
@@ -11,7 +12,7 @@ using namespace std;
 template<typename T> ArrayBlockingQueue<T>::ArrayBlockingQueue(const size_t& capacity, const bool& fair) : m_capacity(capacity), m_fair(fair), m_frontIdx(-1), m_rearIdx(-1), m_size(0)
 {
 	if(capacity<1)
-		throw std::invalid_argument("");
+		throw IllegalArgumentException();
 	m_queue = new T[capacity];
 	m_name = getName();
 }
@@ -21,7 +22,7 @@ template<typename T> ArrayBlockingQueue<T>::ArrayBlockingQueue(const size_t& cap
 	m_frontIdx(-1), m_rearIdx(-1), m_size(0)
 {
 	if(capacity<inputCollection.size() || capacity<1)
-		throw std::invalid_argument("");
+		throw IllegalArgumentException();
 
 	m_queue = new T[capacity];
 	for(const auto& iter : inputCollection)
@@ -56,7 +57,7 @@ template<typename T> bool ArrayBlockingQueue<T>::add(const T& item)
 {
 	unique_lock<shared_mutex> exclusiveLock(m_mutex);
 	if(isFull())
-		throw std::runtime_error("illegal state");
+		throw IllegalStateException();
 	bool returnStatus=enqueue(item);
 	if(returnStatus)
 	{	
@@ -132,7 +133,7 @@ template<typename T> string ArrayBlockingQueue<T>::getName()
 	stringstream stream;
 	stream << address;
 	string result = stream.str();
-	return(result);
+	return result;
 }
 
 // Implementation of getThreadId Method. Returns a string of thread-id number.
@@ -142,7 +143,7 @@ template<typename T> string ArrayBlockingQueue<T>::getThreadId()
 	stringstream ss;
 	ss << myid;
 	string resultString = ss.str();
-	return(resultString);
+	return resultString;
 }
 
 // We need to implement the contains method. Returns true if this queue contains the specified element.
@@ -229,7 +230,7 @@ template<typename T> size_t ArrayBlockingQueue<T>::drainTo(vector<T>& target, co
 {
 	unique_lock<shared_mutex> exclusiveLock(m_mutex);
 	if(size<1)
-		throw throw std::runtime_error("illegal state");
+		throw IllegalStateException();
 	size_t result=drainToInternal(target, size);
 	exclusiveLock.unlock();
 	m_cond.notify_all();
