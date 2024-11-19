@@ -1,7 +1,7 @@
 #include <dpp/dpp.h>
-using namespace std;
+#include <string>
 
-string TOKEN = "";
+std::string TOKEN = "";
 
 int main() {
     return 0;
