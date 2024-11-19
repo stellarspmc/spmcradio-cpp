@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spmcradio-cpp", "spmcradio-cpp.vcxproj", "{A20AB959-90E7-4963-9C67-C87E8BDC670B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spmcradio-cpp", "spmcradio-cpp\spmcradio-cpp.vcxproj", "{44DE896A-0264-4C51-9B92-77B8D797EF87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +10,7 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Debug|Win32.Build.0 = Debug|Win32
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Debug|x64.ActiveCfg = Debug|x64
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Debug|x64.Build.0 = Debug|x64
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Release|Win32.ActiveCfg = Release|Win32
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Release|Win32.Build.0 = Release|Win32
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Release|x64.ActiveCfg = Release|x64
-		{A20AB959-90E7-4963-9C67-C87E8BDC670B}.Release|x64.Build.0 = Release|x64
+		{44DE896A-0264-4C51-9B92-77B8D797EF87}.Release|x64.ActiveCfg = Release|x64
+		{44DE896A-0264-4C51-9B92-77B8D797EF87}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
